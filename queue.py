@@ -16,7 +16,4 @@ class Queue:
         self.data.append(value)
 
     def dequeue(self):
-        if self.data.size == 1:
-            return self.data.pop()
-        self.data.pop()
-        return self.data[0]
+        return self.data.popleft()
