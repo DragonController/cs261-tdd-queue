@@ -5,7 +5,9 @@
 # Hint: pip3 install llist
 # from llist import sllist
 
+from llist import sllist
+
 class Queue:
 
-    pass
-
+    def __init__(self):
+        self.data = sllist()
